@@ -1,0 +1,69 @@
+#Ignore project files
+*.wpr
+*.wpu
+*.userprefs
+*.idea
+
+#Ignore development installs
+*.egg-info
+
+#Ignore python compilations
+*.pyc
+*.pyo
+*.pyd
+
+#Ignore python coverage files ... only collects output
+*.coverage
+
+#Ignore C compilations
+*.so
+*.o
+
+#Ignore temporary swap files
+*.swp
+
+#Ingore the built lightkeeper installer
+lightkeeper.zip
+
+#Local directory build info
+build/
+dist/
+
+#Mac index files
+.DS_Store
+
+#OmniGraffle Temp Files
+*(Autosaved).graffle
+
+#ignore backup files
+*.bak
+
+#c sharp specific files
+*.suo
+*.pdb
+*.pidb
+gen-*/
+_ReSharper.*/
+*.ReSharper.user
+*.csproj.user
+*.mdproj
+*.mdb
+
+#ignore bin directories in src/csharp/LightStation:
+#http://stackoverflow.com/questions/971465/git-ignore-certain-files-contained-in-specific-folders
+/*/src/csharp/LightStation*/bin/
+/*/src/csharp/LightStation*/obj/
+
+# Ignore MonoDevelop development files
+build.log
+/*/src/csharp/LightStation*/test-results/
+
+# ignore these
+*.orig
+
+# ignore
+distribute*.egg
+distribute*.tar.gz
+
+*.dotCover
+*.DotSettings.user
